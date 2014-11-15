@@ -6,6 +6,10 @@ Embed live templates for jasmine (behavior-driven development framework for test
 
 Feel free to purpose a Merge Request to improve this tools!
 
+### Warning
+The template used to work right in webstorm 8.x, while I migrate webstorm 9.0, jasmine-ajax and jasmine-jquery 
+seems encount tough problem, and not fixed by now.
+
 ### Installation
 
 |System|Location|
@@ -37,15 +41,15 @@ These live templates was made for [<i class="icon-share"></i> Jasmine testing fr
 - expectmatch: Expect(X).toMatch(Y)
 - expectnotmatch: Jasmine Expect(X).not.toMatch(Y)
 - expectdefined: Expect(X).toBeDefined()
+- expectnotdefined: Expect().not.toBeDefined()
 - expectundefined: Expect(X).toBeUndefined()
-- expectnotundefined: Expect(X).toBeUndefined()
-- expectnotdefined: Jasmine expect().not.toBeDefined()
+- expectnotundefined: Expect(X).not.toBeUndefined()
 - expectnull: Expect(X).toBeNull()
 - expectnotnull: Expect(X).not.toBeNull()
 - expecttrue: Expect(X).toBeTruthy(Y)
 - expectfalse: Expect(X).toBeFalsy(Y)
-- expectnotfalse: Expect(X).not.toBeFalsy(Y)
 - expectnottrue: Expect(X).not.toBeTruthy(Y)
+- expectnotfalse: Expect(X).not.toBeFalsy(Y)
 - expectcontain: Expect(X).toContain(Y)
 - expectnotcontain: Expect(X).not.toContain(Y)
 - expectlessthan: Expect(X).toBeLessThan(Y)
